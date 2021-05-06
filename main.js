@@ -1,4 +1,4 @@
-<script type='text/javascript'>
+
     (function() {
       var items = <data:post.commentJso/>;
       var msgs = <data:post.commentMsgs/>;
@@ -177,4 +177,3 @@ var cursor = null;
         window.goog.comments.loadQueue.push(render);
       }
     })();
-    </script>
