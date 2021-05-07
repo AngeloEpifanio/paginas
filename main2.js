@@ -1,8 +1,8 @@
 
     (function() {
-      var items = <data:post.commentJso/>;
-      var msgs = <data:post.commentMsgs/>;
-      var config = <data:post.commentConfig/>;
+      var items = '<data:post.commentJso/>';
+      var msgs = '<data:post.commentMsgs/>';
+      var config = '<data:post.commentConfig/>';
     var cursor = null;
       if (items && items.length > 0) {
         cursor = parseInt(items[items.length - 1].timestamp) + 1;
